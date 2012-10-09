@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<%= form_for @${1:var}, url: ${2:root_path}, html: { method: :${3:post} } %>
+  ${4}
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>erbform</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.html.erb</scope> -->
+</snippet>
+
