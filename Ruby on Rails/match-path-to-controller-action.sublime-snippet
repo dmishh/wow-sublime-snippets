@@ -1,14 +1,9 @@
 <snippet>
   <content><![CDATA[
-<% case ${1} %>
-  <% when ${2} %>
-    ${3}
-  <% when ${4} %>
-    ${5}
-<% end %>  
+match '/${1:path}' => "${2:controller}#${3:action}"${4:, as: :${5:path} }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>case</tabTrigger>
+  <tabTrigger>match</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.ruby</scope>
+  <scope>source.ruby.rails</scope>
 </snippet>

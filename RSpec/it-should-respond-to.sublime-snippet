@@ -1,14 +1,9 @@
 <snippet>
   <content><![CDATA[
-<% case ${1} %>
-  <% when ${2} %>
-    ${3}
-  <% when ${4} %>
-    ${5}
-<% end %>  
+it { should${1} respond_to(:${2:methods}) }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>case</tabTrigger>
+  <tabTrigger>itsrt</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.ruby</scope>
+  <scope>source.ruby.rspec</scope>
 </snippet>

@@ -7,7 +7,7 @@
 <% end %>      
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>erbife</tabTrigger>
+  <tabTrigger>ife</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.python</scope> -->
+  <scope>text.html.ruby</scope>
 </snippet>
