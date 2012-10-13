@@ -8,6 +8,7 @@
 * `when`=>    when
 * `each`=>    object-each-do-end
 * `tap`=>     object-tap-do-end
+* `try`=>     object-try-do-end
 * `erbform`=> form-for
 * `erbimg`=>  image-tag
 * `erblink`=> link-to
@@ -28,7 +29,7 @@
 * `res`=> resources
 * `reso`=> resources-only
 * `rese`=> resources-except
-* `:`=> key-value
+* `:`=> key-value ~>1.9 (the old one is at `Ruby/hash-pair`)
 
 More to come. Stay tuned.
 
