@@ -35,5 +35,4 @@ More to come. Stay tuned.
 
 ## Setup
 
-Clone repo into
-`~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/`
+`git clone git@github.com:EvercodeLab/sublime2-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/s2-s/`
