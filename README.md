@@ -1,9 +1,38 @@
-Eversnippets Collection
-=================
+## Eversnippets Collection
 
-Let the time do it's job.
+# HTML (Rails)
+* `<%`=>      `<%= %>`
+* `if`=>      if-end  
+* `ife`=>     if-else-end
+* `case`=>    case-when-when-end
+* `when`=>    when
+* `each`=>    object-each-do-end
+* `tap`=>     object-tap-do-end
+* `erbform`=> form-for
+* `erbimg`=>  image-tag
+* `erblink`=> link-to
+* `:`=>       key-value
 
-Setup
-=================
+# JavaScript
+* `docready`=> document-ready-function
+
+# RSpec
+* `itsrt`=> it-should-respond-to
+* `itsbt`=> it-should-belong-to
+* `itshm`=> it-should-have-many
+* `itshabtm`=> it-should-have-and-belong-to-many
+* `its`=> its-property-should
+
+# Ruby on Rails
+* `match`=> match-path-action
+* `res`=> resources
+* `reso`=> resources-only
+* `rese`=> resources-except
+* `:`=> key-value
+
+More to come. Stay tuned.
+
+## Setup
+
 Clone repo into
-~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
+`~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/`
