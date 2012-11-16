@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$em = \$this->getDoctrine()->getEntityManager();]]></content>
+    <tabTrigger>sf-em</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony / Get Entity Manager</description>
+</snippet>

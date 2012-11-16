@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$em->getRepository('${1:Bundle}:${2:Repository}')->${4}(${3});]]></content>
+    <tabTrigger>sf-get-repository</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony2 / Get Repository in Controller</description>
+</snippet>

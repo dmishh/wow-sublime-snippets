@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$this->container->get('security.context')->getToken()->getUser();]]></content>
+    <tabTrigger>sf-get-user-from-security-context</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 / Get User from Security context</description>
+</snippet>

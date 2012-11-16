@@ -6,12 +6,13 @@
  */
 public function ${4:index}Action()
 {
+    ${0}
     return array(
-        ${5}
+        
     );
 }
 ]]></content>
-    <tabTrigger>sf-aaction</tabTrigger>
+    <tabTrigger>sf-action-with-annotation</tabTrigger>
     <scope>source.php</scope>
-    <description>Annotated action for Symfony 2 Controller</description>
+    <description>Symfony 2 / Annotated action for Controller</description>
 </snippet>
