@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<snippet>
+    <content><![CDATA[
+    ${1:snippet here}
+]${4}\]></content>
+    <tabTrigger>${2}</tabTrigger>
+    <!-- <scope>source.python</scope> -->
+    <description>${3}</description>
+</snippet>
+]]></content>
+    <tabTrigger>snippet</tabTrigger>
+    <description>Snippet for creating Sublime 2 Snippets</description>
+</snippet>

@@ -1,6 +1,6 @@
-## Eversnippets Collection
+# Eversnippets Collection
 
-# HTML (Rails)
+## HTML (Rails)
 * `<%`=>      `<%= %>`
 * `if`=>      if-end  
 * `ife`=>     if-else-end
@@ -14,7 +14,7 @@
 * `erblink`=> link-to
 * `:`=>       key-value
 
-# JavaScript
+## JavaScript
 * `docready`=> document-ready-function
 
 # RSpec
@@ -24,7 +24,7 @@
 * `itshabtm`=> it-should-have-and-belong-to-many
 * `its`=> its-property-should
 
-# Ruby on Rails
+## Ruby on Rails
 * `match`=> match-path-action
 * `res`=> resources
 * `reso`=> resources-only

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$(document).ready(function(${1}){
+    ${2}
+});
+]]></content>
+    <tabTrigger>docready</tabTrigger>
+    <description>Creating $(document).ready(...) for jQuery</description>
+</snippet>
