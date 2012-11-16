@@ -35,4 +35,12 @@ More to come. Stay tuned.
 
 ## Setup
 
-`git clone git@github.com:EvercodeLab/sublime2-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/s2-s/`
+For osX:
+
+    git clone git@github.com:EvercodeLab/sublime2-snippets.git \
+        ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/EvercodeSnippetPack
+
+For Linux:
+
+    git clone git@github.com:EvercodeLab/sublime2-snippets.git \ 
+        ~/.config/sublime-text-2/Packages/EvercodeSnippetPack
