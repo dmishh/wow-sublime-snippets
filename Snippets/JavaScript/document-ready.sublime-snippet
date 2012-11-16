@@ -5,5 +5,5 @@
 });
 ]]></content>
     <tabTrigger>docready</tabTrigger>
-    <description>Creating $(document).ready(...) for jQuery</description>
+    <description>$(document).ready function, which is common in jQuery practice</description>
 </snippet>

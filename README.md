@@ -1,5 +1,19 @@
 # Eversnippets Collection
 
+Just some peace of code that helps us in work.
+
+## Setup
+
+### For osX:
+
+    git clone git@github.com:EvercodeLab/sublime2-snippets.git \
+        ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/EvercodeSnippetPack
+
+### For Linux:
+
+    git clone git@github.com:EvercodeLab/sublime2-snippets.git \ 
+        ~/.config/sublime-text-2/Packages/EvercodeSnippetPack
+
 ## HTML (Rails)
 * `<%`=>      `<%= %>`
 * `if`=>      if-end  
@@ -15,9 +29,11 @@
 * `:`=>       key-value
 
 ## JavaScript
-* `docready`=> document-ready-function
+* `docready`: Document ready function which is common in jQuery practice
+* `console`: console.log() function — help debug JavaScript
+* `anonimus-function`: anonimus function 
 
-# RSpec
+## RSpec
 * `itsrt`=> it-should-respond-to
 * `itsbt`=> it-should-belong-to
 * `itshm`=> it-should-have-many
@@ -31,16 +47,12 @@
 * `rese`=> resources-except
 * `:`=> key-value ~>1.9 (the old one is at `Ruby/hash-pair`)
 
+## Symfony 2 snippets
+### Controller
+* `sf-aaction`: action annotated with @Route and @Template
+
+
+## Other
+* `snippet`: just for generation of other snippets
+
 More to come. Stay tuned.
-
-## Setup
-
-For osX:
-
-    git clone git@github.com:EvercodeLab/sublime2-snippets.git \
-        ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/EvercodeSnippetPack
-
-For Linux:
-
-    git clone git@github.com:EvercodeLab/sublime2-snippets.git \ 
-        ~/.config/sublime-text-2/Packages/EvercodeSnippetPack

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @Route("${1:/path}"${2:, name="${3:name}"})
+ * @Template()
+ */
+public function ${4:index}Action()
+{
+    return array(
+        ${5}
+    );
+}
+]]></content>
+    <tabTrigger>sf-aaction</tabTrigger>
+    <scope>source.php</scope>
+    <description>Annotated action for Symfony 2 Controller</description>
+</snippet>
