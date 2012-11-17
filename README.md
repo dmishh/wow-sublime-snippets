@@ -63,6 +63,7 @@ Just some peace of code that helps us in work.
 * `sf-orm-column-with-set-and-get`: generates ORM column defenition with setter
 and getter
 * `sf-repository-class`: generates entity repository class
+* `sf-query-builder`: generate query builder
 
 ## Other
 * `snippet`: just for generation of other snippets

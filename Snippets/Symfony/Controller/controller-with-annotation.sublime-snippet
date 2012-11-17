@@ -10,13 +10,13 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 ${3:/**
 * @Route("${4:/path}"})
 */
-class ${5:ControllerName}Controller extends Controller
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
 {
     /**
-     * @Route("${6:/path}"${7:, name="${8:name}"})
+     * @Route("${5:/path}"${6:, name="${7:name}"})
      * @Template()
      */
-    public function ${9:index}Action()
+    public function ${8:index}Action()
     {
         ${0}
         return array(
