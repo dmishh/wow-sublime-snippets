@@ -5,8 +5,8 @@
     ${1:snippet here}
 ]${4}\]></content>
     <tabTrigger>${2}</tabTrigger>
-    <!-- <scope>source.python</scope> -->
-    <description>${3}</description>
+    ${3:<scope>source.${4}</scope>}
+    <description>${5}</description>
 </snippet>
 ]]></content>
     <tabTrigger>snippet</tabTrigger>

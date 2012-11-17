@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[<?php
+
+namespace ${1:App}\\${2:Default}Bundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
+/**
+* @ORM\Entity(repositoryClass="${1}\\${2}Bundle\Repository\\${3}Repository")
+* @ORM\Table(name="${4:table_name}")
+*/
+class ${3:Entiy}
+{
+    /**
+    * @ORM\Id
+    * @ORM\Column(type="integer")
+    * @ORM\GeneratedValue(strategy="AUTO")
+    */
+    protected \$id;${0}
+}
+
+]]></content>
+    <tabTrigger>sf-entity-class</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony2 Generates Entity class</description>
+</snippet>

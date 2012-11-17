@@ -48,6 +48,7 @@ Just some peace of code that helps us in work.
 * `:`=> key-value ~>1.9 (the old one is at `Ruby/hash-pair`)
 
 ## Symfony 2 snippets
+
 ### Controller
 * `sf-action-with-annotation`: action annotated with @Route and @Template
 * `sf-controller-with-annotation`: controller with annotations
@@ -56,6 +57,12 @@ Just some peace of code that helps us in work.
 * `sf-get-user-from-security-context`: get User information from security.context
 * `sf-redirect`: redirect
 
+### Doctrine
+* `sf-entity-class`: generates entity class
+* `sf-orm-column`: generates ORM column defenition
+* `sf-orm-column-with-set-and-get`: generates ORM column defenition with setter
+and getter
+* `sf-repository-class`: generates entity repository class
 
 ## Other
 * `snippet`: just for generation of other snippets
