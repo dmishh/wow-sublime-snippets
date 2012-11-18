@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+{% spaceless %}
+    ${0}
+{% endspaceless %}
+]]></content>
+    <tabTrigger>twig-spaceless</tabTrigger>
+    <scope>text.html.twig</scope>
+    <description>Symfony 2 twig spaceless tags</description>
+</snippet>

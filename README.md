@@ -66,7 +66,7 @@ and getter
 * `sf-query-builder`: generate query builder
 
 ### Twig
-For basic twig functions use [PHP Twig][1]. It provide next snippets:
+For basic Twig functions use [PHP Twig][1]. It provide next snippets:
 * `}}`: `{{  }}`
 * `%%`: `{%  %}`
 * `block`: `{% block name %}{% endblock %}`
@@ -82,6 +82,12 @@ For basic twig functions use [PHP Twig][1]. It provide next snippets:
 * `ife`: same as `if` but with else statement
 * `set`: `{% set var = value %}`
 * `setb`: same as `set` but in other syntax
+
+And here some more Twig snippets:
+* `twig-path`: path function
+* `twig-include`: include other template
+* `twig-render`: render other template
+* `twig-spaceless`: render peace of templte without spaces
 
 ## Other
 * `snippet`: just for generation of other snippets
