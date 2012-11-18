@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:app.default.service}:
+    class: ${2:App}\${3:Default}Bundle\${4:Service}\${5:ServiceClass}
+    arguments: [ ${6:@service_container} ]
+]]></content>
+    <tabTrigger>sf-service</tabTrigger>
+    <scope>source.yaml</scope>
+    <description>Symfony 2 yml service defenition</description>
+</snippet>

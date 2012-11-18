@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[<?php
+
+namespace ${1:App}\${2:Default}Bundle\Form\Extension\ChoiceList;
+
+use Symfony\Component\Form\Extension\Core\ChoiceList\ChoiceListInterface;
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} implements ChoiceListInterface
+{
+    const ${3:TYPE} = "${4:type}";
+
+    public function getChoices()
+    {
+        return array(
+            self::${3} => self::${3},
+        );
+    }
+}
+]]></content>
+    <tabTrigger>sf-cnoice-list-class</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 choice list class</description>
+</snippet>

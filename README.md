@@ -65,6 +65,10 @@ and getter
 * `sf-repository-class`: generates entity repository class
 * `sf-query-builder`: generate query builder
 
+### Form
+* `sf-form-type`: creates form type class
+* `sf-cnoice-list-class`: creates choice list class
+
 ### Twig
 For basic Twig functions use [PHP Twig][1]. It provide next snippets:
 * `}}`: `{{  }}`
@@ -88,6 +92,13 @@ And here some more Twig snippets:
 * `twig-include`: include other template
 * `twig-render`: render other template
 * `twig-spaceless`: render peace of templte without spaces
+
+### SonataAdmin
+* `sf-sonata-admin-class`: creates SonataAdmin class
+
+### Config
+* `sf-service`: yml service defenition
+* `sf-service-admin`: yml admin service defenition
 
 ## Other
 * `snippet`: just for generation of other snippets

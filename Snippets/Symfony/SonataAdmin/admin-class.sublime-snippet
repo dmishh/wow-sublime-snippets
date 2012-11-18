@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[<?php
+
+namespace ${1:App}\${2:Default}Bundle\Admin;
+
+use Sonata\AdminBundle\Admin\Admin;
+use Sonata\AdminBundle\Form\FormMapper;
+use Sonata\AdminBundle\Datagrid\DatagridMapper;
+use Sonata\AdminBundle\Datagrid\ListMapper;
+use Sonata\AdminBundle\Show\ShowMapper;
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Admin
+{
+    ${7:protected $translationDomain = 'SonataAdmin';}
+
+    public function configureShowFields(ShowMapper $showMapper)
+    {
+        $showMapper
+            ->add('${3:id}')
+        ;
+    }
+
+    public function configureFormFields(FormMapper $formMapper)
+    {
+        $formMapper
+            ->add('${4:id}')
+        ;
+    }
+
+    public function configureListFields(ListMapper $listMapper)
+    {
+        $listMapper
+            ->addIdentifier('${5:id}')
+        ;
+    }
+
+    public function configureDatagridFilters(DatagridMapper $datagridMapper)
+    {
+        $datagridMapper
+            ->add('${6:id}')
+        ;
+    }
+}
+
+]]></content>
+    <tabTrigger>sf-sonata-admin-class</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 snippet for Sonata Admin class generation</description>
+</snippet>
