@@ -65,7 +65,27 @@ and getter
 * `sf-repository-class`: generates entity repository class
 * `sf-query-builder`: generate query builder
 
+### Twig
+For basic twig functions use [PHP Twig][1]. It provide next snippets:
+* `}}`: `{{  }}`
+* `%%`: `{%  %}`
+* `block`: `{% block name %}{% endblock %}`
+* `blockb`: block with blank line
+* `else`: `{% else %}`
+* `extends`: `{% extends 'template' %}`
+* `filter`: `{% filter name %}{% endfilter %}`
+* `filterb`: filter with blank line
+* `for`: `{% for item in seq %}`
+* `fore`: for with else
+* `if`: `{% if condition %}{% endif %}`
+* `ifb`: same as `if` but with blank line
+* `ife`: same as `if` but with else statement
+* `set`: `{% set var = value %}`
+* `setb`: same as `set` but in other syntax
+
 ## Other
 * `snippet`: just for generation of other snippets
 
 More to come. Stay tuned.
+
+[1]: https://github.com/Anomareh/PHP-Twig.tmbundle "PHP Twig"
