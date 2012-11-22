@@ -1,0 +1,102 @@
+<snippet>
+    <content><![CDATA[
+namespace ${1:App}\\${2:Default}Bundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+
+${3:/**
+* @Route("${4:/path}"})
+*/
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
+{
+    /**
+     * @Route("/" name="${5:name}_list"})
+     * @Template()
+     */
+    public function indexAction()
+    {
+        ${0}
+        return array(
+
+        );
+    }
+
+        /**
+     * @Route("/show/{id}", name="${5}_show")
+     * @Template()
+     */
+    public function showAction($id)
+    {
+        
+        return array(
+            
+        );
+    }
+
+    /**
+     * @Route("/add", name="${5}_add")
+     * @Template()
+     */
+    public function addAction()
+    {
+        
+        return array(
+            
+        );
+    }
+
+    /**
+     * @Route("/create", name="${5}_create")
+     * @Template()
+     */
+    public function createAction()
+    {
+        
+        return array(
+            
+        );
+    }
+
+    /**
+     * @Route("/edit/{id}", name="${5}_edit")
+     * @Template()
+     */
+    public function editAction($id)
+    {
+        
+        return array(
+            
+        );
+    }
+
+    /**
+     * @Route("/update/{id}", name="${5}_update")
+     * @Template()
+     */
+    public function updateAction($id)
+    {
+        
+        return array(
+            
+        );
+    }
+
+    /**
+     * @Route("/delete/{id}", name="${5}_delete")
+     * @Template()
+     */
+    public function deleteAction()
+    {
+        
+        return array(
+            
+        );
+    }
+} 
+]]></content>
+    <tabTrigger>sf-crud-controller</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 CRUD controller with annotations</description>
+</snippet>
