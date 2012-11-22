@@ -12,7 +12,7 @@ ${3:/**
 class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
 {
     /**
-     * @Route("/" name="${5:name}_list"})
+     * @Route("/", name="${5:name}_list"})
      * @Template()
      */
     public function indexAction()
@@ -23,11 +23,11 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
         );
     }
 
-        /**
+    /**
      * @Route("/show/{id}", name="${5}_show")
      * @Template()
      */
-    public function showAction($id)
+    public function showAction(\$id)
     {
         
         return array(
@@ -63,7 +63,7 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
      * @Route("/edit/{id}", name="${5}_edit")
      * @Template()
      */
-    public function editAction($id)
+    public function editAction(\$id)
     {
         
         return array(
@@ -75,7 +75,7 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
      * @Route("/update/{id}", name="${5}_update")
      * @Template()
      */
-    public function updateAction($id)
+    public function updateAction(\$id)
     {
         
         return array(
@@ -87,7 +87,7 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
      * @Route("/delete/{id}", name="${5}_delete")
      * @Template()
      */
-    public function deleteAction()
+    public function deleteAction(\$id)
     {
         
         return array(
