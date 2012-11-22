@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[{{ path('${1:path}'${2:, ${3:{ "${4:parameter}": ${5:parameter} }}}) }}]]></content>
+    <content><![CDATA[{{ path('${1:path}'${2:, ${3:{ "${4:parameter}": ${5:parameter} }}) }}]]></content>
     <tabTrigger>twig-path</tabTrigger>
     <scope>text.html.twig</scope>
     <description>Symfony 2 Twig path</description>

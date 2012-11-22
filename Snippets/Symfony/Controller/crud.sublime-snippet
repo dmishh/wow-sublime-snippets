@@ -12,7 +12,7 @@ ${3:/**
 class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
 {
     /**
-     * @Route("/", name="${5:name}_list"})
+     * @Route("/", name="${5:name}_list")
      * @Template()
      */
     public function indexAction()
