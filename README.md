@@ -32,6 +32,7 @@ Just some peace of code that helps us in work.
 * `docready`: Document ready function which is common in jQuery practice
 * `console`: console.log() function — help debug JavaScript
 * `anonimus-function`: anonimus function 
+* `onclick`: document-on-click function
 
 ## RSpec
 * `itsrt`=> it-should-respond-to

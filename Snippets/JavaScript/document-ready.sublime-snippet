@@ -6,4 +6,5 @@
 ]]></content>
     <tabTrigger>docready</tabTrigger>
     <description>$(document).ready function, which is common in jQuery practice</description>
+    <scope>source.js</scope>
 </snippet>

@@ -4,4 +4,5 @@ console.log(${1});
 ]]></content>
     <tabTrigger>console</tabTrigger>
     <description>console.log function — help debug JavaScript</description>
+    <scope>source.js</scope>
 </snippet>

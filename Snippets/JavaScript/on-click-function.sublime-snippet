@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$(document).on('click','${1:html}',function(){
+    ${2}
+});
+]]></content>
+    <tabTrigger>onclick</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
