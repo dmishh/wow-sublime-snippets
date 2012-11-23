@@ -23,9 +23,9 @@ Just some peace of code that helps us in work.
 * `each`=>    object-each-do-end
 * `tap`=>     object-tap-do-end
 * `try`=>     object-try-do-end
-* `erbform`=> form-for
-* `erbimg`=>  image-tag
-* `erblink`=> link-to
+* `formfor`=> form-for
+* `imgtag`=>  image-tag
+* `linkto`=>  link-to
 * `:`=>       key-value
 
 ## JavaScript
