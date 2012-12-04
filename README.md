@@ -52,12 +52,14 @@ Just some peace of code that helps us in work.
 ## Symfony 2 snippets
 
 ### Controller
-* `sf-action-with-annotation`: action annotated with @Route and @Template
+* `sf-crud-controller`: generate whole CRUD controller
 * `sf-controller-with-annotation`: controller with annotations
+* `sf-action-with-annotation`: action annotated with @Route and @Template
 * `sf-em`: getting Entity Manager in Controller
 * `sf-get-repository`: getting repository with Entity manager
 * `sf-get-user-from-security-context`: get User information from security.context
 * `sf-redirect`: redirect
+* `sf-flash`: flash message
 
 ### Doctrine
 * `sf-entity-class`: generates entity class

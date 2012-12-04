@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+if (${1}) {
+    throw new Symfony\Component\Security\Core\Exception\AccessDeniedException(${2});
+}
+]]></content>
+    <tabTrigger>sf-403</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 403 exception</description>
+</snippet>

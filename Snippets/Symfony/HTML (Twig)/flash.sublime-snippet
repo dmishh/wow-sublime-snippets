@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[{% if app.session.hasFlash('${1:label}') %}
+    <div class="${2:alert}">
+        {{ app.session.flash('${1}') }}
+    </div>
+{% endif %}
+]]></content>
+    <tabTrigger>twig-flash</tabTrigger>
+    <scope>text.html.twig</scope>
+    <description>Twig flash message</description>
+</snippet>
