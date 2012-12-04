@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-    {% render "${1:Bundle}:${2:Controller}:${3:template}.html.twig"${4: with { '${5:variable}': ${6:variable} }} %}
+{% render "${1:Bundle}:${2:Controller}:${3:template}.html.twig"${4: with { '${5:variable}': ${6:variable} }} %}
 ]]></content>
     <tabTrigger>twig-render</tabTrigger>
     <scope>text.html.twig</scope>

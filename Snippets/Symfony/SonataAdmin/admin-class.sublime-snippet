@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[<?php
-
+    <content><![CDATA[
 namespace ${1:App}\${2:Default}Bundle\Admin;
 
 use Sonata\AdminBundle\Admin\Admin;

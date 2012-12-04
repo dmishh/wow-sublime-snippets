@@ -1,11 +1,8 @@
 <snippet>
-    <content><![CDATA[<?php
-
+    <content><![CDATA[
 namespace ${1:App}\${2:Default}Bundle\Form\Extension\ChoiceList;
 
-use Symfony\Component\Form\Extension\Core\ChoiceList\ChoiceListInterface;
-
-class ${TM_FILENAME/(.+)\..+|.*/$1/:name} implements ChoiceListInterface
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name}
 {
     const ${3:TYPE} = "${4:type}";
 

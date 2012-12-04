@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-    {% include "${1:Bundle}:${2:Controller}:${3:template}.html.twig"${4: with { '${5:variable}': ${6:variable} }} %}
+{% include "${1:Bundle}:${2:Controller}:${3:template}.html.twig"${4: with { '${5:variable}': ${6:variable} }} %}
 ]]></content>
     <tabTrigger>twig-include</tabTrigger>
     <scope>text.html.twig</scope>

@@ -1,14 +1,13 @@
 <snippet>
-    <content><![CDATA[<?php
-
+    <content><![CDATA[
 namespace ${1:App}\\${2:Default}Bundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
-* @ORM\Entity(repositoryClass="${1}\\${2}Bundle\Repository\\${TM_FILENAME/(.+)\..+|.*/$1/:name}Repository")
-* @ORM\Table(name="${3:table_name}")
+* @ORM\Entity(${3:repositoryClass="${1}\\${2}Bundle\Entity\Repository\\${TM_FILENAME/(.+)\..+|.*/$1/:name}Repository"})
+* @ORM\Table(${4:name="${5:table_name}"})
 */
 class ${TM_FILENAME/(.+)\..+|.*/$1/:name}
 {
