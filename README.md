@@ -15,7 +15,8 @@ Just some peace of code that helps us in work.
         ~/.config/sublime-text-2/Packages/EvercodeSnippetPack
 
 ## HTML (Rails)
-* `<%`=>      `<%= %>`
+* `<%`=>      `<% %>`
+* `erb`=>     `<%= %>` seems wierd at first, but is easy to type with just left hand
 * `if`=>      if-end  
 * `ife`=>     if-else-end
 * `case`=>    case-when-when-end
@@ -26,13 +27,12 @@ Just some peace of code that helps us in work.
 * `formfor`=> form-for
 * `imgtag`=>  image-tag
 * `linkto`=>  link-to
-* `:`=>       key-value
 
 ## JavaScript
 * `docready`: Document ready function which is common in jQuery practice
 * `console`: console.log() function — help debug JavaScript
 * `anonimus-function`: anonimus function 
-* `onclick`: document-on-click function
+* `on`: document-on function, 'click' by default
 
 ## RSpec
 * `itsrt`=> it-should-respond-to
@@ -43,10 +43,11 @@ Just some peace of code that helps us in work.
 
 ## Ruby on Rails
 * `match`=> match-path-action
+* `get`=> get-path
+* `post`=> post-path
 * `res`=> resources
-* `reso`=> resources-only
-* `rese`=> resources-except
-* `:`=> key-value ~>1.9 (the old one is at `Ruby/hash-pair`)
+* `ro`=> resources-only
+* `re`=> resources-except
 
 ## Symfony 2 snippets
 

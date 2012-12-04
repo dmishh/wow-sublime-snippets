@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[
-${1:key}: ${2::value}
-]]></content>
-  <tabTrigger>:</tabTrigger>
-  <scope>source.ruby.rails</scope>
-  <description>hash-pair 1.9</description>
-</snippet>
