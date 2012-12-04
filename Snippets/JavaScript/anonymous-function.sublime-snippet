@@ -4,6 +4,7 @@
     ${3}
 })(${2});
 ]]></content>
-    <tabTrigger>anonimus-function</tabTrigger>
+    <tabTrigger>anonymous-function</tabTrigger>
+    <descriprion>Realy anonymous function fo JavaScript</descriprion>
     <scope>source.js</scope>
 </snippet>

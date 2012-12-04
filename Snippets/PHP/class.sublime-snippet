@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-
 namespace ${1:Some\Namespace};
 
 class ${TM_FILENAME/(.+)\..+|.*/$1/:name}

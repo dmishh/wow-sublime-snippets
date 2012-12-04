@@ -17,7 +17,7 @@ Just some peace of code that helps us in work.
 ## HTML (Rails)
 * `<%`=>      `<% %>`
 * `erb`=>     `<%= %>` seems wierd at first, but is easy to type with just left hand
-* `if`=>      if-end  
+* `if`=>      if-end
 * `ife`=>     if-else-end
 * `case`=>    case-when-when-end
 * `when`=>    when
@@ -29,10 +29,10 @@ Just some peace of code that helps us in work.
 * `linkto`=>  link-to
 
 ## JavaScript
-* `docready`: Document ready function which is common in jQuery practice
+* `docready`: jQuery [document ready][3] function
 * `console`: console.log() function — help debug JavaScript
-* `anonimus-function`: anonimus function 
-* `on`: document-on function, 'click' by default
+* `anonymous-function`: anonymous function 
+* `on`: jQuery [`on`][2]function, 'click' by default
 
 ## RSpec
 * `itsrt`=> it-should-respond-to
@@ -60,6 +60,8 @@ Just some peace of code that helps us in work.
 * `sf-get-user-from-security-context`: get User information from security.context
 * `sf-redirect`: redirect
 * `sf-flash`: flash message
+* `sf-403`: throwing 403 exception
+* `sf-404`: throwing 404 exception
 
 ### Doctrine
 * `sf-entity-class`: generates entity class
@@ -68,6 +70,9 @@ Just some peace of code that helps us in work.
 and getter
 * `sf-repository-class`: generates entity repository class
 * `sf-query-builder`: generate query builder
+* `sf-setter-and-getter`: setter and getter methods
+* `sf-setter`: settere
+* `sf-getter`: getter
 
 ### Form
 * `sf-form-type`: creates form type class
@@ -75,11 +80,11 @@ and getter
 
 ### Twig
 For basic Twig functions use [PHP Twig][1]. It provide next snippets:
+
 * `}}`: `{{  }}`
 * `%%`: `{%  %}`
 * `block`: `{% block name %}{% endblock %}`
 * `blockb`: block with blank line
-* `else`: `{% else %}`
 * `extends`: `{% extends 'template' %}`
 * `filter`: `{% filter name %}{% endfilter %}`
 * `filterb`: filter with blank line
@@ -88,10 +93,12 @@ For basic Twig functions use [PHP Twig][1]. It provide next snippets:
 * `if`: `{% if condition %}{% endif %}`
 * `ifb`: same as `if` but with blank line
 * `ife`: same as `if` but with else statement
+* `else`: `{% else %}`
 * `set`: `{% set var = value %}`
 * `setb`: same as `set` but in other syntax
 
 And here some more Twig snippets:
+
 * `twig-path`: path function
 * `twig-include`: include other template
 * `twig-render`: render other template
@@ -104,9 +111,18 @@ And here some more Twig snippets:
 * `sf-service`: yml service defenition
 * `sf-service-admin`: yml admin service defenition
 
+## PHP
+* `class`: just PHP class
+* `php`: PHP open tag
+* `pubfun`: public function
+* `privfun`: private function
+* `protfun`: protected function
+
 ## Other
 * `snippet`: just for generation of other snippets
 
 More to come. Stay tuned.
 
 [1]: https://github.com/Anomareh/PHP-Twig.tmbundle "PHP Twig"
+[2]: http://api.jquery.com/on/ "on function"
+[3]: http://api.jquery.com/ready/ "ready function"
