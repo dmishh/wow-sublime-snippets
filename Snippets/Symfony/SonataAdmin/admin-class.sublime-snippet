@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-namespace ${1:App}\${2:Default}Bundle\Admin;
+namespace ${1:App}\\${2:Default}Bundle\Admin;
 
 use Sonata\AdminBundle\Admin\Admin;
 use Sonata\AdminBundle\Form\FormMapper;
@@ -10,32 +10,32 @@ use Sonata\AdminBundle\Show\ShowMapper;
 
 class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Admin
 {
-    ${7:protected $translationDomain = 'SonataAdmin';}
+    ${7:protected \$translationDomain = 'SonataAdmin';}
 
-    public function configureShowFields(ShowMapper $showMapper)
+    public function configureShowFields(ShowMapper \$showMapper)
     {
-        $showMapper
+        \$showMapper
             ->add('${3:id}')
         ;
     }
 
-    public function configureFormFields(FormMapper $formMapper)
+    public function configureFormFields(FormMapper \$formMapper)
     {
-        $formMapper
+        \$formMapper
             ->add('${4:id}')
         ;
     }
 
-    public function configureListFields(ListMapper $listMapper)
+    public function configureListFields(ListMapper \$listMapper)
     {
-        $listMapper
+        \$listMapper
             ->addIdentifier('${5:id}')
         ;
     }
 
-    public function configureDatagridFilters(DatagridMapper $datagridMapper)
+    public function configureDatagridFilters(DatagridMapper \$datagridMapper)
     {
-        $datagridMapper
+        \$datagridMapper
             ->add('${6:id}')
         ;
     }

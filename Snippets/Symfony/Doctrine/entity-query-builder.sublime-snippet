@@ -3,10 +3,12 @@
 \$qb = \$this->getEntityManager()->createQueryBuilder();
 \$qb
     ->select('${1}')
-    ->from('{2:DefaultBundle:Entity}', '${1}')
+    ->from('${2:DefaultBundle:Entity}', '${1}')
     ${3:->where('${1}.${4:field} = :${4}')
     ->setParameter('${4}', ${5})}
 ;
+
+return \$qb->getQuery()->${6:execute()};$0
 ]]></content>
     <tabTrigger>sf-query-builder</tabTrigger>
     <scope>source.php</scope>
