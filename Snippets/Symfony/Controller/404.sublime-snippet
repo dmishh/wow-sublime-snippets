@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 if ($1) {
-    throw \i$this->createNotFoundException('$2');
+    throw \$this->createNotFoundException('$2');
 }
 ]]></content>
     <tabTrigger>sf-404</tabTrigger>

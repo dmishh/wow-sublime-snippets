@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${0:\$variable} = \$em->getRepository('${1:Bundle}:${2:Repository}')->${4:\$find}(${3:\$id});
+\$${0:variable} = \$em->getRepository('${1:Bundle}:${2:Repository}')->${4:find}(${3:\$id});
 ]]></content>
     <tabTrigger>sf-get-repository</tabTrigger>
     <scope>source.php</scope>
