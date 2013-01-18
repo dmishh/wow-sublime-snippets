@@ -1,11 +1,9 @@
 <snippet>
   <content><![CDATA[
-<% ${1:@object}.try(:${2:each}) do |${3:o}| %>
-  ${4}
-<% end %>  
+options_for_select(${1:%w(c o l l e c t i o n)})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>try</tabTrigger>
+  <tabTrigger>optfor</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html.ruby</scope>
 </snippet>

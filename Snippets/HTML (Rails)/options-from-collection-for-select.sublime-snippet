@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-get '${1:show}' => '${2:controller}#${3:action}'
+options_from_collection_for_select(@${1:collection}, '${2:id}', '${3:name}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>get</tabTrigger>
+  <tabTrigger>optfrom</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.ruby.rails</scope>
+  <scope>text.html.ruby</scope>
 </snippet>
