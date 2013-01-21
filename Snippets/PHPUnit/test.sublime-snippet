@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+public function test${1:Method}()
+{
+    ${0}
+    \$this->markTestIncomplete('Not yet implemented');
+}
+]]></content>
+    <tabTrigger>phpunit-test</tabTrigger>
+    <scope>source.php</scope>
+    <description>PHPUnit test class method</description>
+</snippet>

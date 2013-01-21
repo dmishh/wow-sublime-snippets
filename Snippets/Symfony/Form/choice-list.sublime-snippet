@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-namespace ${1:App}\${2:Default}Bundle\Form\Extension\ChoiceList;
+namespace ${1:App}\\${2:Default}Bundle\Form\Extension\ChoiceList;
 
 class ${TM_FILENAME/(.+)\..+|.*/$1/:name}
 {
