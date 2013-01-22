@@ -9,10 +9,13 @@ private \$${1};
  * Set ${1}
  *
  * @param ${2} \$${1}
+ * @return ${TM_FILENAME/(.+)\..+|.*/$1/:name}
  */
 public function set${1/^./\u$&/}(\$${1})
 {
     \$this->${1} = \$${1};
+
+    return \$this;
 }
 
 /**
@@ -23,8 +26,7 @@ public function set${1/^./\u$&/}(\$${1})
 public function get${1/^./\u$&/}()
 {
     return \$this->${1};
-}
-
+}${0}
 ]]></content>
     <tabTrigger>sf-orm-column-with-set-and-get</tabTrigger>
     <scope>source.php</scope>

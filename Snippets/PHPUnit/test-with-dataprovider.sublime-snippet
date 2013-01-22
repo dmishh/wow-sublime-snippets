@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @dataProvider data${1:Method}
+ */
+public function test${1:Method}(${3})
+{
+    ${0}
+    \$this->markTestIncomplete('Not yet implemented');
+}
+
+public function data${1:Method}()
+{
+    return array(
+        array(${2})
+    );
+}
+]]></content>
+    <tabTrigger>phpunit-test-with-data</tabTrigger>
+    <scope>source.php</scope>
+    <description>PHPUnit test with data provider</description>
+</snippet>
