@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+use Gedmo\Mapping\Annotation as Gedmo;
+]]></content>
+    <tabTrigger>sf-use-gedmo</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 common use statements — Gedmo Annotation</description>
+</snippet>

@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 ${1:app.admin.class}:
-    class: ${2:App}\${3:Geo}Bundle\Admin\${4:Class}Admin
+    class: ${2:App}\\${3:Default}Bundle\Admin\\${4:Class}Admin
     tags:
         - { name: sonata.admin, manager_type: orm, group: ${5:Group}, label: ${6:Label}${7:, label_translator_strategy: sonata.admin.label.strategy.underscore}}
-    arguments: [null, ${2}\${3}Bundle\Entity\${4}, SonataAdminBundle:CRUD]
+    arguments: [null, ${2}\\${3}Bundle\Entity\\${4}, SonataAdminBundle:CRUD]
 ]]></content>
     <tabTrigger>sf-service-admin</tabTrigger>
     <scope>source.yaml</scope>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+public function test${1:ControllerName}()
+{
+    \$client = static::createClient();
+    \$crawler = $client->request('GET', '${2:/}');
+}
+]]></content>
+    <tabTrigger></tabTrigger>
+    <scope>source.php</scope>
+    <description>PHPUnit web test for Symfony controller</description>
+</snippet>

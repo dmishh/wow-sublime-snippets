@@ -1,9 +1,12 @@
 <snippet>
     <content><![CDATA[
-\$(${1:'element'}).on('${2:click}', function(){
+\$('${1:element}').on('${2:click}', function(){
     ${0}
 });
 ]]></content>
     <tabTrigger>on</tabTrigger>
     <scope>source.js</scope>
+    <description>
+        jQuery .on('click') function 
+    </description>
 </snippet>

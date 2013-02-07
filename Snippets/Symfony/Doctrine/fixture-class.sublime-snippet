@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+namespace ${1:App}\\${2:Default}Bundle\DataFixtures\ORM;
+
+use Doctrine\Common\DataFixtures\AbstractFixture;
+use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
+use Doctrine\Common\Persistence\ObjectManager;
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:FixtureClass} extends AbstractFixture implements OrderedFixtureInterface
+{
+    /**
+     * {@inheritDoc}
+     */
+    public function load(ObjectManager \$manager)
+    {
+        \$manager->persist();
+        \$manager->flush();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getOrder()
+    {
+        return ${3:1};
+    }
+}
+]]></content>
+    <tabTrigger>sf-orm-fixture</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 datafixture class</description>
+</snippet>
