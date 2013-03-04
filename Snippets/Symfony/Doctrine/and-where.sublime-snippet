@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+->andWhere('${1:q}.${2} = :${3}')
+->setParameter('${3}', \$${4})
+]]></content>
+    <tabTrigger>sf-and-where</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 andWhere for query builder</description>
+</snippet>

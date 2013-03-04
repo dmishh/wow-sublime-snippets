@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+]]></content>
+    <tabTrigger>sf-use-method</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 Method use defenition</description>
+</snippet>

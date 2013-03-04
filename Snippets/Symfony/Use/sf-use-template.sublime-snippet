@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+]]></content>
+    <tabTrigger>sf-use-template</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 — Template use defenition</description>
+</snippet>
