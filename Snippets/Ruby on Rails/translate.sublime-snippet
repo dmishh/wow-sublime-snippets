@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+t('${1:key}', default: '${2:default}')
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tran</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby, text.html.ruby, text.haml</scope>
+  <description>translation block</description>
+</snippet>
