@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+namespace ${1:App}\\${2:Default}Bundle\Command;
+
+use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends ContainerAwareCommand
+{
+    protected function configure()
+    {
+        \$this
+            ->setName('${3:command:name}')
+            ->setDescription('${4:Command description}');
+    }
+
+    protected function execute(InputInterface \$input, OutputInterface \$output)
+    {
+        $0
+    }
+}
+
+]]></content>
+    <tabTrigger>sf-command-class</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 Command class</description>
+</snippet>
