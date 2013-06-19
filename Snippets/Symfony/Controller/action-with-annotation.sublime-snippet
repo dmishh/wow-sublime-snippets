@@ -7,9 +7,9 @@
 public function ${4:index}Action()
 {
     ${0}
-    return array(
+    return [
         
-    );
+    ];
 }
 ]]></content>
     <tabTrigger>sf-action-with-annotation</tabTrigger>
