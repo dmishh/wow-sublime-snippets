@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-class ${TM_FILENAME/(.+)\..+|.*/$1/:ClassTest} extends PHPUnit_Framework_TestCase
+namespace ${1:Some\Namespace};
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:ClassTest} extends \PHPUnit_Framework_TestCase
 {
     ${0}
 }

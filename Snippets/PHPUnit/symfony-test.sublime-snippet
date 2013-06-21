@@ -6,7 +6,7 @@ public function test${1:ControllerName}()
     \$crawler = $client->request('GET', '${2:/}');
 }
 ]]></content>
-    <tabTrigger></tabTrigger>
+    <tabTrigger>phpunit-symfony-test</tabTrigger>
     <scope>source.php</scope>
     <description>PHPUnit web test for Symfony controller</description>
 </snippet>
