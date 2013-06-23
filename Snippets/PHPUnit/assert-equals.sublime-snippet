@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-\$this->assertEquals(${1:\$expected}, ${2:\$result});
+\$expected = ${1};
+\$result = ${2};
+\$this->assertEquals(\$expected, \$result);
 ]]></content>
     <tabTrigger>assert-equals</tabTrigger>
     <scope>source.php</scope>

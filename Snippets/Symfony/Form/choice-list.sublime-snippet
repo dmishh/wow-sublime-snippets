@@ -2,19 +2,22 @@
     <content><![CDATA[
 namespace ${1:App}\\${2:Default}Bundle\Form\Extension\ChoiceList;
 
-class ${TM_FILENAME/(.+)\..+|.*/$1/:name}
+use Symfony\Component\Form\Extension\Core\ChoiceList\SimpleChoiceList;
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends SimpleChoiceList
 {
     const ${3:TYPE} = "${4:type}";
 
-    public function getChoices()
+    public function __construct()
     {
-        return array(
+        $choices = array(
             self::${3} => self::${3},
         );
+        parent::__construct($choices);
     }
 }
 ]]></content>
-    <tabTrigger>sf-cnoice-list-class</tabTrigger>
+    <tabTrigger>sf-choice-list-class</tabTrigger>
     <scope>source.php</scope>
     <description>Symfony 2 choice list class</description>
 </snippet>
