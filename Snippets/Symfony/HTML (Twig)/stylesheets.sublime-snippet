@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{% stylesheets
+    '${1:css/custom.css}'
+    output=${2:'compiled/compiled.css'}
+%}
+    <link href="{{ asset_url }}" type="text/css" rel="stylesheet" media="screen" />
+{% endstylesheets %}
+]]></content>
+    <tabTrigger>twig-css</tabTrigger>
+    <scope>text.html.twig</scope>
+    <description>Symfony2 Twig stylesheets asserts</description>
+</snippet>

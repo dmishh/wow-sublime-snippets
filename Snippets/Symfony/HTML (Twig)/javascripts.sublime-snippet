@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{% javascripts
+    '${1:js/custom.js}'
+    output='${2:compiled/compiled.js}'
+%}
+<script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+]]></content>
+    <tabTrigger>twig-js</tabTrigger>
+    <scope>text.html.twig</scope>
+    <description>Symfony2 Twig javascripts asserts</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @ORM\ManyToOne(targetEntity="App\\${1:Default}Bundle\Entity\\${2:Name}", inversedBy="${3:column_name}")
+ * @ORM\JoinColumn(name="${4:column_name}", referencedColumnName="${5:column_name}")
+ */
+]]></content>
+    <tabTrigger>sf-orm-many-to-one</tabTrigger>
+    <scope>source.php</scope>
+    <description>Symfony 2 Doctrine Many-To-One annotation</description>
+</snippet>

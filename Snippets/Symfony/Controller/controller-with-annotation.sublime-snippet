@@ -18,9 +18,9 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Controller
     public function ${8:index}Action()
     {
         ${0}
-        return array(
-
-        );
+        return [
+            
+        ];
     }
 }
 ]]></content>

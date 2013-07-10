@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{{ asset('${1}') }}
+]]></content>
+    <tabTrigger>twig-asset</tabTrigger>
+    <scope>text.html.twig</scope>
+    <description>Symfony 2 Twig asset</description>
+</snippet>
