@@ -10,9 +10,9 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends SimpleChoiceList
 
     public function __construct()
     {
-        $choices = array(
+        \$choices = [
             self::${3} => self::${3},
-        );
+        ];
         parent::__construct($choices);
     }
 }

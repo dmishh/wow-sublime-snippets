@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$em = \$this->getDoctrine()->getEntityManager();
+\$em = \$this->getDoctrine()->getManager();
 ]]></content>
     <tabTrigger>sf-em</tabTrigger>
     <scope>source.php</scope>
