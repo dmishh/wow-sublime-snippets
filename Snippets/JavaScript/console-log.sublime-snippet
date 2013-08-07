@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-console.log(${1});
+console.log(${1:'${2}: ' + ${2}});
 ]]></content>
     <tabTrigger>console</tabTrigger>
     <description>console.log function — help debug JavaScript</description>
