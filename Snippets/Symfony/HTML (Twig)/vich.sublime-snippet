@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{{ vich_uploader_asset(${1:entity}, '${2:field}') }}
+]]></content>
+    <tabTrigger>twig-vich</tabTrigger>
+    <scope>text.html.twig</scope>
+    <description>Twig vich bundle uploader asset</description>
+</snippet>
