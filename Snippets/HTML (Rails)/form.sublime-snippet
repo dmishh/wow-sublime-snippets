@@ -1,12 +1,11 @@
 <snippet>
-  <content><![CDATA[
+    <content><![CDATA[
 <%= form_for @${1:var}, url: ${2:root_path}, html: { method: :${3:post} } %>
   ${4}
 <% end %>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>formfor</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.ruby</scope>
+    <tabTrigger>formfor</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Rails HTML form</description>
 </snippet>
 

@@ -1,11 +1,12 @@
 <snippet>
-  <content><![CDATA[
+    <content><![CDATA[
 <%= simple_form_for ${1:resource} do |f| %>
   <%= f.input :${2:email} %>
   ${3}
   <%= f.button :submit, value: 'Submit' %>
 <% end %>
 ]]></content>
-  <tabTrigger>simpleform</tabTrigger>
-  <scope>text.html.ruby</scope>
+    <tabTrigger>simpleform</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Rails HTML simple form</description>
 </snippet>

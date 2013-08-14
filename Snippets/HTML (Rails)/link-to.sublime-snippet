@@ -1,9 +1,8 @@
 <snippet>
-  <content><![CDATA[
+    <content><![CDATA[
 <%= link_to ${1:'Click me'}, ${2:'#'} %>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>linkto</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.ruby</scope>
+    <tabTrigger>linkto</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Rails HTML link tag</description>
 </snippet>

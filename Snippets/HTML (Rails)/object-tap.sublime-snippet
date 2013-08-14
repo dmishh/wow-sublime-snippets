@@ -1,11 +1,10 @@
 <snippet>
-  <content><![CDATA[
+    <content><![CDATA[
 <% ${1:@object}.tap do |${2:o}| %>
   ${3}
 <% end %>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>tap</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.ruby</scope>
+    <tabTrigger>tap</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Rails HTML object tap</description>
 </snippet>

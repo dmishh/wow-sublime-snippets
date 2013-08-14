@@ -1,9 +1,8 @@
 <snippet>
-  <content><![CDATA[
+    <content><![CDATA[
 <%= image_tag ${1:'rails.png'} %>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>imgtag</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.ruby</scope>
+    <tabTrigger>imgtag</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Rails HTML image tag</description>
 </snippet>
