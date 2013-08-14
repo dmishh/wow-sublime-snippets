@@ -13,7 +13,7 @@ class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends SimpleChoiceList
         \$choices = [
             self::${3} => self::${3},
         ];
-        parent::__construct($choices);
+        parent::__construct(\$choices);
     }
 }
 ]]></content>
