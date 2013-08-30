@@ -4,7 +4,7 @@
     type: "${1:POST}",
     url: ${2:url},
     data: ${3:data},
-    success: function(${4:responce}) {
+    success: function(${4:response}) {
         ${0}
     }
 });
