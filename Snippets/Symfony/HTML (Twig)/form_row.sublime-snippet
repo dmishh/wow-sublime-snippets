@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{{ form_row(${1:form}.${2:field}) }}
+]]></content>
+    <tabTrigger>twig-form-row</tabTrigger>
+    <scope>text.html.twig</scope>
+    <description>Symfony twig form row</description>
+</snippet>

@@ -51,12 +51,6 @@ ST3
 * `simplefields`: simple fields for form
 * `simpleform`: simple form with fields
 
-## JavaScript
-* `docready`: jQuery [document ready][2] function
-* `console`: console.log() function — help debug JavaScript
-* `anonymous-function`: anonymous function 
-* `on`: jQuery [`on`][3]function, 'click' by default
-
 ## RSpec
 * `itsrt`: it-should-respond-to
 * `itsbt`: it-should-belong-to
@@ -71,6 +65,12 @@ ST3
 * `res`: resources
 * `ro`: resources-only
 * `re`: resources-except
+
+## JavaScript
+* `docready`: jQuery [document ready][2] function
+* `console`: console.log() function — help debug JavaScript
+* `anonymous-function`: anonymous function 
+* `on`: jQuery [`on`][3]function, 'click' by default
 
 ## Symfony 2 snippets
 
