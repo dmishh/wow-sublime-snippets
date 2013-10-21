@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-private function ${1:functionName}(${2:\$${3:parameters}})
+private function ${1:functionName}(${2})
 {
     ${0}
 }
 ]]></content>
-    <tabTrigger>privfun</tabTrigger>
+    <tabTrigger>prif</tabTrigger>
     <scope>source.php</scope>
     <description>PHP public function</description>
 </snippet>
