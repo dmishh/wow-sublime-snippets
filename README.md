@@ -1,36 +1,40 @@
-# Eversnippets Collection
+# Wow Sublime 2 and 3 Snippets Collection
 
-Just some peace of code that helps us in work.
+Includes snippets for: Ruby, Ruby on Rails, ERB, RSpec, Javascript, PHP, Symfony2, Doctrine2, Twig.
+Forked from [snippets pack by EvercodeLab][5]
 
 ## Setup
 
-1. Install [Package Controll][1]
-2. In Sublime Text 2/3 press `⌘+shift+p` (or `ctrl+shift+p`) and enter `Install Package`
-3. In this palet enter `EvercodeLab Sublime Snippets` and press `enter`
-4. …
-5. Profit!
-
-### Manual install
-
-#### For osX:
+#### For OS X:
 
 ST2
 
-    git clone git@github.com:EvercodeLab/evercodelab-sublime-snippets.git \
-        ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/EvercodeSnippetPack
+    git clone git@github.com:dmishh/wow-sublime-snippets.git \
+        ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/WowSnippetsPack
 
 ST3
-    
-    git clone git@github.com:EvercodeLab/evercodelab-sublime-snippets.git \
-        ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/EvercodeSnippetPack
+
+    git clone git@github.com:dmishh/wow-sublime-snippets.git \
+        ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/WowSnippetsPack
 
 
 #### For Linux:
 
-    git clone git@github.com:EvercodeLab/evercodelab-sublime-snippets.git \ 
-        ~/.config/sublime-text-2/Packages/EvercodeSnippetPack
+    git clone git@github.com:dmishh/wow-sublime-snippets.git \
+        ~/.config/sublime-text-2/Packages/WowSnippetsPack
 
-## HTML (Rails)
+## Ruby
+* `u8`: \# encoding = utf-8
+
+## Ruby on Rails
+* `match`: match-path-action
+* `get`: get-path
+* `post`: post-path
+* `res`: resources
+* `ro`: resources-only
+* `re`: resources-except
+
+## ERB
 * `<%`: `<% %>`
 * `erb`: `<%= %>` seems wierd at first, but is easy to type with just left hand
 * `if`: if-end
@@ -58,18 +62,10 @@ ST3
 * `itshabtm`: it-should-have-and-belong-to-many
 * `its`: its-property-should
 
-## Ruby on Rails
-* `match`: match-path-action
-* `get`: get-path
-* `post`: post-path
-* `res`: resources
-* `ro`: resources-only
-* `re`: resources-except
-
 ## JavaScript
 * `docready`: jQuery [document ready][2] function
 * `console`: console.log() function — help debug JavaScript
-* `anonymous-function`: anonymous function 
+* `anonymous-function`: anonymous function
 * `on`: jQuery [`on`][3]function, 'click' by default
 
 ## Symfony 2 snippets
@@ -137,16 +133,16 @@ And here some more Twig snippets:
 ## PHP
 * `class`: just PHP class
 * `php`: PHP open tag
-* `pubfun`: public function
-* `privfun`: private function
-* `protfun`: protected function
+* `pubf`: public function
+* `pubsf`: public static function
+* `privf`: private function
+* `protf`: protected function
 
 ## Other
 * `snippet`: just for generation of other snippets
-
-More to come. Stay tuned.
 
 [1]: https://sublime.wbond.net/installation "Package Control"
 [2]: http://api.jquery.com/ready/ "ready function"
 [3]: http://api.jquery.com/on/ "on function"
 [4]: https://github.com/Anomareh/PHP-Twig.tmbundle "PHP Twig"
+[5]: https://github.com/EvercodeLab/evercodelab-sublime-snippets "Orignal snippets pack by EvercodeLab"
